@@ -39,7 +39,7 @@ const r = new Discord.RichPresence()
           .setStartTimestamp(startedAt)
           .setAssetsLargeText(`〈${currentDate}〉|〈🛸 ${Math.round(client.ws.ping)} m/s〉`) // status
           .setAssetsLargeImage(largeImages[currentLargeImageIndex]) // รูปใหญ่ไปใส่ข้างบน
-          .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1199386824582373516/1211345413177745498/tenor.gif?ex=65eddc54&is=65db6754&hm=ba8a6e24009efbd52718cfae1408d77c5b469931d9cb856a53ea358429d013d9&') // รูปเล็ก
+          .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1199386824582373516/1211367040057745478/395796082_1424688225118968_1183873637443851474_n.jpg?ex=65edf078&is=65db7b78&hm=406e4fe31e214013c1c675e06f3a2d8727773c08a1b21de18ae926f8a0aaa935&') // รูปเล็ก
           .setAssetsSmallText('✧ Busy')
           .addButton('..?❤️', 'https://youtu.be/DG2QqcHwNdE?si=gmhUjuYRhkdObNhz')
           .addButton('Itz4levy', 'https://guns.lol/4levy')
