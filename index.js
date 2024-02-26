@@ -8,9 +8,7 @@ const app = express();
 const port = 8000;
 
 const largeImages = [
-    'https://cdn.discordapp.com/attachments/928527673955856395/1211330945056116806/9c5f4e81099f788d4fd0ba74ffdd5d2d.gif?ex=65edceda&is=65db59da&hm=f4649e1f37ed65b98abb0def022564eba86a23cf09479dfd62b1e4108dfb868f&',
-    'https://cdn.discordapp.com/attachments/928527673955856395/1211330945056116806/9c5f4e81099f788d4fd0ba74ffdd5d2d.gif?ex=65edceda&is=65db59da&hm=f4649e1f37ed65b98abb0def022564eba86a23cf09479dfd62b1e4108dfb868f&',
-    'https://cdn.discordapp.com/attachments/928527673955856395/1211638364504203304/ezgif.com-animated-gif-maker.gif?ex=65eeed29&is=65dc7829&hm=78aca76fe5c5000faa68375c6805160dd4efefe4d46629625f82ede64c96e6ae&'
+    'https://cdn.discordapp.com/attachments/928527673955856395/1211638364504203304/ezgif.com-animated-gif-maker.gif?ex=65eeed29&is=65dc7829&hm=78aca76fe5c5000faa68375c6805160dd4efefe4d46629625f82ede64c96e6ae&',
       // ใส่เพิ่มได้ถ้าเองต้องการ รูปใหญ่
   ];
 
@@ -39,9 +37,10 @@ const r = new Discord.RichPresence()
           .setStartTimestamp(startedAt)
           .setAssetsLargeText(`〈${currentDate}〉|〈🛸 ${Math.round(client.ws.ping)} m/s〉`) // status
           .setAssetsLargeImage(largeImages[currentLargeImageIndex]) // รูปใหญ่ไปใส่ข้างบน
-          .setAssetsSmallImage('https://cdn.discordapp.com/attachments/928527673955856395/1211639096431345765/download.jpg?ex=65eeedd7&is=65dc78d7&hm=25b39c743f6c4173dcf4841b33e152a294350e2920e1a2cd2aedf0c4ece77754&') // รูปเล็ก
+          .setAssetsSmallImage('https://cdn.discordapp.com/attachments/928527673955856395/1211644276669415424/2024-02-04_20.20.31.png?ex=65eef2aa&is=65dc7daa&hm=7554408728b62e5f75e6aae152ec6c80e00fe95a3db547ff836e433d32cc0080&') // รูปเล็ก
           .setAssetsSmallText('Boring')
-          .addButton('..?💨', 'https://youtu.be/CDTG-igDKrs?si=hH1tH-cj_zzpGDVe')
+          .addButton('..Kindness', 'https://youtu.be/4xvSFYbVa0U?si=2xbhUdT6EjJ62lEZ')
+          .addButton('..My Instagram', 'https://www.pornhub.org')
 
         client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
         client.user.setActivity(r);
