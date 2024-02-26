@@ -37,7 +37,7 @@ const r = new Discord.RichPresence()
           .setStartTimestamp(startedAt)
           .setAssetsLargeText(`〈${currentDate}〉|〈🛸 ${Math.round(client.ws.ping)} m/s〉`) // status
           .setAssetsLargeImage(largeImages[currentLargeImageIndex]) // รูปใหญ่ไปใส่ข้างบน
-          .setAssetsSmallImage('https://cdn.discordapp.com/attachments/928527673955856395/1211644276669415424/2024-02-04_20.20.31.png?ex=65eef2aa&is=65dc7daa&hm=7554408728b62e5f75e6aae152ec6c80e00fe95a3db547ff836e433d32cc0080&') // รูปเล็ก
+          .setAssetsSmallImage('https://cdn.discordapp.com/attachments/928527673955856395/1211647971247005747/giphy.gif?ex=65eef61b&is=65dc811b&hm=606044fe141873c98839c51121677a0a8f5c906ec1f384ba1672f2e7f2613b73&') // รูปเล็ก
           .setAssetsSmallText('Boring')
           .addButton('..Kindness', 'https://youtu.be/4xvSFYbVa0U?si=2xbhUdT6EjJ62lEZ')
           .addButton('..My Instagram', 'https://www.pornhub.org')
