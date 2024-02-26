@@ -10,7 +10,7 @@ const port = 8000;
 const largeImages = [
     'https://cdn.discordapp.com/attachments/928527673955856395/1211330945056116806/9c5f4e81099f788d4fd0ba74ffdd5d2d.gif?ex=65edceda&is=65db59da&hm=f4649e1f37ed65b98abb0def022564eba86a23cf09479dfd62b1e4108dfb868f&',
     'https://cdn.discordapp.com/attachments/928527673955856395/1211330945056116806/9c5f4e81099f788d4fd0ba74ffdd5d2d.gif?ex=65edceda&is=65db59da&hm=f4649e1f37ed65b98abb0def022564eba86a23cf09479dfd62b1e4108dfb868f&',
-    'https://cdn.discordapp.com/attachments/928527673955856395/1211638364504203304/ezgif.com-animated-gif-maker.gif?ex=65eeed29&is=65dc7829&hm=78aca76fe5c5000faa68375c6805160dd4efefe4d46629625f82ede64c96e6ae&')
+    'https://cdn.discordapp.com/attachments/928527673955856395/1211638364504203304/ezgif.com-animated-gif-maker.gif?ex=65eeed29&is=65dc7829&hm=78aca76fe5c5000faa68375c6805160dd4efefe4d46629625f82ede64c96e6ae&'
       // ใส่เพิ่มได้ถ้าเองต้องการ รูปใหญ่
   ];
 
