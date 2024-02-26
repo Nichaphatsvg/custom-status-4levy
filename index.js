@@ -29,7 +29,7 @@ client.on("ready", async () => {
 
 const r = new Discord.RichPresence()
           .setApplicationId('1155496899697180762')
-          .setType('WATCHING')
+          .setType('STREAMING')
           .setURL('https://youtu.be/Dst9gZkq1a8?si=U72dUHvwbweeL1CM')
           .setState('Tomato sauce') // คำที่ขึ้น
           .setName('Chasing') // คำที่ขึ้น
@@ -42,7 +42,7 @@ const r = new Discord.RichPresence()
           .addButton('..Kindness', 'https://youtu.be/4xvSFYbVa0U?si=2xbhUdT6EjJ62lEZ')
           .addButton('..My Instagram', 'https://www.pornhub.org')
 
-        client.user.setPresence({ status: "online" }); //dnd, online, idle, offline
+        client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
         client.user.setActivity(r);
 
       // ปรับเปลียนไปรูปต่อไป
