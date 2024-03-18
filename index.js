@@ -8,7 +8,7 @@ const app = express();
 const port = 8000;
 
 const largeImages = [
-    'https://cdn.discordapp.com/attachments/928527673955856395/1211638364504203304/ezgif.com-animated-gif-maker.gif?ex=65eeed29&is=65dc7829&hm=78aca76fe5c5000faa68375c6805160dd4efefe4d46629625f82ede64c96e6ae&',
+    'https://media.discordapp.net/attachments/1219230292376686622/1219232876500090921/animesher.com_manga-boy-kaneki-1311408.gif?ex=660a8e1a&is=65f8191a&hm=580475d2f196c2039d4abbd213427316ddce4ae28a2c220d8296b2ee29fe96cb&=&width=400&height=400',
       // ใส่เพิ่มได้ถ้าเองต้องการ รูปใหญ่
   ];
 
@@ -37,7 +37,7 @@ const r = new Discord.RichPresence()
           .setStartTimestamp(startedAt)
           .setAssetsLargeText(`〈${currentDate}〉|〈🛸 ${Math.round(client.ws.ping)} m/s〉`) // status
           .setAssetsLargeImage(largeImages[currentLargeImageIndex]) // รูปใหญ่ไปใส่ข้างบน
-          .setAssetsSmallImage('https://cdn.discordapp.com/attachments/928527673955856395/1211647971247005747/giphy.gif?ex=65eef61b&is=65dc811b&hm=606044fe141873c98839c51121677a0a8f5c906ec1f384ba1672f2e7f2613b73&') // รูปเล็ก
+          .setAssetsSmallImage('https://media.discordapp.net/attachments/1219230292376686622/1219232728663457874/giphy.gif?ex=660a8df6&is=65f818f6&hm=b791a142e863c908b81bba076680d5b346a5bc2e6ed6670801a1bbc90fa11839&=&width=320&height=320') // รูปเล็ก
           .setAssetsSmallText('Boring')
           .addButton('..Kindness', 'https://youtu.be/4xvSFYbVa0U?si=2xbhUdT6EjJ62lEZ')
           .addButton('..My Instagram', 'https://www.pornhub.org')
